@@ -1,0 +1,40 @@
+{
+  "import_material": {
+    "prefix": "importM",
+    "body": ["import 'package:flutter/material.dart';"],
+    "description": "Import Flutter Material Design"
+  },
+  "create_stateless_widget": {
+    "prefix": "Stateless",
+    "body": [
+      "class $0 extends StatelessWidget {",
+      "    const $0({super.key});",
+      "",
+      "    @override",
+      "    Widget build(BuildContext context) {",
+      "        return Container();",
+      "    }",
+      "}"
+    ],
+    "description": "Create a stateless widget"
+  },
+  "create_stateful_widget": {
+    "prefix": "Stateful",
+    "body": [
+      "class $0 extends StatefulWidget {",
+      "    const $0({super.key});",
+      "",
+      "    @override",
+      "    State<$0> createState() => _$0State();",
+      "}",
+      "",
+      "class _$0State extends State<$0> {",
+      "    @override",
+      "    Widget build(BuildContext context) {",
+      "        return Container();",
+      "    }",
+      "}"
+    ],
+    "description": "Create a stateful widget"
+  }
+}

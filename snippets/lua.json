@@ -1,0 +1,7 @@
+{
+  "Quick_Setup": {
+    "prefix": "reqpack",
+    "body": "require '$0'.setup {}",
+    "description": "Quickly require and setup a package"
+  }
+}
